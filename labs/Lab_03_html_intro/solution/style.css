@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-container {
+  width: 300px; 
+  overflow: hidden;
+}
+
+  .text{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    height: 100%;
+    flex-direction: column;
+}
+
+    a:visited{
+    color: rgb(57, 9, 189);
+    }
+
+  button {
+    justify-self: left;
+    border: 5px solid #2b5c8c;
+    padding: 25px 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
