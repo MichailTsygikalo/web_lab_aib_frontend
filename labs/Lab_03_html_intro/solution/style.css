@@ -33,17 +33,6 @@ html {
 }
 
     a:visited{
-    color: rgb(57, 9, 189);
+    color: rgb(10, 7, 177);
     }
 
-  button {
-    justify-self: left;
-    border: 5px solid #2b5c8c;
-    padding: 25px 50px;
-    color: rgb(0, 0, 0);
-    font-weight: 900;
-    font-size: 30px;
-    text-transform: uppercase;
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-  }
