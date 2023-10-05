@@ -1,0 +1,106 @@
+@media screen and (min-width: 1025px) {
+
+    header{
+        margin: 12px;
+        position: sticky;
+        top: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .logo{
+        background-color: grey;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    header .text_logo{
+        display: block;
+        padding-top: 2%;
+    }
+
+    main .grid_conteiner_katalog{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 2%;
+        margin-right: 2%;
+        place-items: center;
+    }
+
+    main .grid_conteiner_popular{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        place-items: center;
+    }
+
+    .img_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .grid_conteiner_popular .img_text img{
+        max-width: 80%;
+    }
+
+    main .grid_conteiner_katalog img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        margin: 12px;
+        position: sticky;
+        top: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header .logo{
+        background-color: grey;
+        text-align: center;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    header .text_logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 2%;
+    }
+
+    main .grid_conteiner_katalog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 2%;
+        margin-right: 2%;
+        place-items: center;
+    }
+
+    main .grid_conteiner_popular{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+    }
+
+    .img_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .grid_conteiner_popular .img_text img{
+        max-width: 80%;
+    }
+
+    main .grid_conteiner_katalog img {
+        max-width: 80%;
+    }
+}
