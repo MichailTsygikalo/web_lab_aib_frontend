@@ -4,7 +4,7 @@ let firstVariable = prompt('var one');
 let secondVariable= prompt('var two');
 if (firstVariable === secondVariable) console.log('equally')
 else console.log('not equally');
-let stringVariable = 'world'; var anyVariable = anyVariable + stringVariable;
+let stringVariable = 'world'; let anyVariable = anyVariable + stringVariable;
 
 console.log("\nзадание 2. level iron");
 
