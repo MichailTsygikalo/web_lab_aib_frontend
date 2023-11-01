@@ -1,0 +1,16 @@
+.button_cont{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    text-align: center;
+    width: 20%;
+}
