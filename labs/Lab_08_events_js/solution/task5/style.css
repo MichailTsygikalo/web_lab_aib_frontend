@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 300px;
 }
 
 .input{
@@ -32,6 +33,7 @@
     overflow-x: scroll;
     width: 300px;
     max-width: 300px;
+    height: 300px;
     white-space: nowrap;
 }
 
