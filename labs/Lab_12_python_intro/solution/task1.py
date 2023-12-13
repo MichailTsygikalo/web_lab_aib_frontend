@@ -12,8 +12,8 @@ def countRoutes(N, M):
     return dp[N - 1][M - 1]
 
 
-N = int(input("Введите количество строк N: "))
-M = int(input("Введите количество столбцов M: "))
+N = int(input())
+M = int(input())
 
 result = countRoutes(N, M)
-print("Количество различных маршрутов из начальной клетки в конечную:", result)
+print(result)

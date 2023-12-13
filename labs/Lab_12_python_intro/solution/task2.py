@@ -16,9 +16,7 @@ for i in range(n):
 
     medians.append(median)
 
-    print(median, end=' ')
-
 sum = 0
 for median in medians:
     sum += median
-print("\nСумма медиан:", sum)
+print(sum)
