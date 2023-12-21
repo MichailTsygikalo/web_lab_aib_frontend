@@ -9,10 +9,8 @@ for t in s:
         mx = max(mx, dictionary[t])
     else:
         dictionary[t] = 1
-s = ""
-for c in dictionary.keys():
-    s += c
-ch = list(s)
+
+ch = list(dictionary.keys())
 ch.sort()
 i = mx
 while i > 0:
